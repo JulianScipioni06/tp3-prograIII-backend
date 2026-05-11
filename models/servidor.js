@@ -19,15 +19,15 @@ class Server {
 
         // manejo de errores
         this.app.use((req, res, next) => {
-        return res.status(400).json({ msg: 'Error.' })
+            return res.status(400).json({ msg: 'Error.' })
         })
         this.app.use((err, req, res, next) => {
-        console.error(err.stack)
-        return res.status(404).json({ msg: 'Error. Pagina no encontrada' })
+            console.error(err.stack)
+            return res.status(404).json({ msg: 'Error. Pagina no encontrada' })
         })
         this.app.use((err, req, res, next) => {
-        console.error(err.stack)
-        return res.status(500).json({ msg: 'Internal Server Error' })
+            console.error(err.stack)
+            return res.status(500).json({ msg: 'Internal Server Error' })
         })
     }
 
