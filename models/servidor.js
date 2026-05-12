@@ -16,18 +16,17 @@ class Server {
 
     rutas () {
         this.app.use('/servicios', require('../routes/serviciosRoutes'))
+        this.app.use('/equipo', require('../routes/equipoRoutes'))
 
-        // manejo de errores
+        // Manejo de error 404 (Ruta no encontrada)
         this.app.use((req, res, next) => {
-        return res.status(400).json({ msg: 'Error.' })
+            return res.status(404).json({ msg: 'Error. Página no encontrada' })
         })
+
+        // Manejo de error 500 (Error interno del servidor)
         this.app.use((err, req, res, next) => {
-        console.error(err.stack)
-        return res.status(404).json({ msg: 'Error. Pagina no encontrada' })
-        })
-        this.app.use((err, req, res, next) => {
-        console.error(err.stack)
-        return res.status(500).json({ msg: 'Internal Server Error' })
+            console.error(err.stack)
+            return res.status(500).json({ msg: 'Internal Server Error' })
         })
     }
 
