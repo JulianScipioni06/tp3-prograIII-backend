@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nombre": "Julián Scipioni",
+        "rol": "Backend Developer",
+        "github": "https://github.com/JulianScipioni06"
+    },
+    {
+        "id": 2,
+        "nombre": "Joaquin Wener",
+        "rol": "Backend Developer",
+        "github": "https://github.com/wenerrj"
+    },
+    {
+        "id": 3,
+        "nombre": "Julian Ripa",
+        "rol": "Frontend Developer",
+        "github": "https://github.com/JulianRipa"
+    }
+]
