@@ -11,7 +11,7 @@
     "url": "git+https://github.com/JulianScipioni06/tp3-prograIII-backend.git"
   },
   "license": "MIT",
-  "author": "",
+  "author": "Grupo 14",
   "type": "commonjs",
   "main": "app.js",
   "scripts": {
