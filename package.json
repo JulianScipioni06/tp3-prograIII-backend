@@ -11,11 +11,11 @@
     "url": "git+https://github.com/JulianScipioni06/tp3-prograIII-backend.git"
   },
   "license": "MIT",
-  "author": "",
+  "author": "Grupo 14",
   "type": "commonjs",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" ",
     "start": "nodemon app.js",
     "lint": "npx standard",
     "fix": "npx standard --fix",
@@ -34,5 +34,3 @@
     "standard": "^17.1.2"
   }
 }
-
-
