@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "nombre": "Julián Scipioni",
+    "email": "julian@test.com",
+    "password": "123",
+    "fecha_registro": "2025-08-15",
+    "foto": "perfil-julian.jpg",
+    "ultimos_pedidos": [
+      {
+        "nro_orden": 1001,
+        "articulo": "Mate Imperial",
+        "fecha": "2026-04-10"
+      },
+      {
+        "nro_orden": 1045,
+        "articulo": "Bombilla Pico Loro",
+        "fecha": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Guido",
+    "email": "guido@test.com",
+    "password": "mate",
+    "fecha_registro": "2026-02-10",
+    "foto": "perfil-guido.jpg",
+    "ultimos_pedidos": [
+      {
+        "nro_orden": 1005,
+        "articulo": "Mate Torpedo",
+        "fecha": "2026-03-15"
+      },
+      {
+        "nro_orden": 1022,
+        "articulo": "Bolso Matero",
+        "fecha": "2026-04-22"
+      },
+      {
+        "nro_orden": 1050,
+        "articulo": "Canasta de Cuero",
+        "fecha": "2026-05-11"
+      }
+    ]
+  }
+]

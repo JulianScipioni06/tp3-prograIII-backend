@@ -17,6 +17,7 @@ class Server {
     rutas () {
         this.app.use('/servicios', require('../routes/serviciosRoutes'))
         this.app.use('/equipo', require('../routes/equipoRoutes'))
+        this.app.use('/usuarios', require('../routes/usuariosRoutes'))
 
         // Manejo de error 404 (Ruta no encontrada)
         this.app.use((req, res, next) => {
