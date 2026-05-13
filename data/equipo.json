@@ -1,20 +1,20 @@
 [
     {
         "id": 1,
-        "nombre": "Julián Scipioni",
-        "rol": "Backend Developer",
-        "github": "https://github.com/JulianScipioni06"
+        "nombre": "Facundo \"Cacho\" Morales",
+        "puesto": "Especialista en Curado y Materiales",
+        "imagen": "integrante1.png"
     },
     {
         "id": 2,
-        "nombre": "Joaquin Wener",
-        "rol": "Backend Developer",
-        "github": "https://github.com/wenerrj"
+        "nombre": "Lucas \"El Cebador\" Benítez",
+        "puesto": "Arquitecto de Identidad Visual",
+        "imagen": "integrante2.png"
     },
     {
         "id": 3,
-        "nombre": "Julian Ripa",
-        "rol": "Frontend Developer",
-        "github": "https://github.com/JulianRipa"
+        "nombre": "Santiago \"Santi\" Diaz",
+        "puesto": "Estratega de Comunidad y Marketing Matero",
+        "imagen": "integrante3.png"
     }
 ]
