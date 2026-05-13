@@ -1,6 +1,7 @@
 const fs = require('fs').promises
 
 const getServicios = async (req, res) => {
+    console.log(`Obteniendo lista de Servicios...`);
     try {
         // Leemos directo el producto.json
         const data = await fs.readFile('./data/servicios.json', 'utf8')
@@ -16,6 +17,7 @@ const getServicios = async (req, res) => {
 }
 
 const getServiciosById = async (req, res) => {
+    console.log(`Buscando el Servicio...`);
     try {
         // Volvemos a leer el productos.json
         const data = await fs.readFile('./data/servicios.json', 'utf8')

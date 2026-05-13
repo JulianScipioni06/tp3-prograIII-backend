@@ -1,6 +1,7 @@
 const fs = require('fs').promises
 
 const getEquipo = async (req, res) => {
+    console.log(`Obteniendo lista de Miembros del Equipo...`)
     try {
         // Leemos directo el producto.json
         const data = await fs.readFile('./data/equipo.json', 'utf8')

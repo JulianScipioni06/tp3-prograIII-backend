@@ -36,7 +36,7 @@
         "materiales": ["Calabaza", "Algarrobo", "Acero"]
     },
     {
-        "id": 6,
+        "id": 5,
         "desc": "Bombillon de Alpaca",
         "detalle": "Caño ancho que garantiza un flujo de agua perfecto",
         "precio": 25000,
@@ -45,7 +45,7 @@
         "materiales": ["Alpaca"]
     },
     {
-        "id": 7,
+        "id": 6,
         "desc": "Bombillon de Acero Inoxidable",
         "detalle": "Maxima durabilidad, su amplio filtro evita que se tape",
         "precio": 25000,
@@ -54,7 +54,7 @@
         "materiales": ["Acero Inoxidable"]
     },
     {
-        "id": 8,
+        "id": 7,
         "desc": "Bombilla Pico Loro de Alpaca",
         "detalle": "Diseño ergonomico que descansa perfecto en la boca",
         "precio": 20000,
@@ -63,7 +63,7 @@
         "materiales": ["Alpaca"]
     },
     {
-        "id": 9,
+        "id": 8,
         "desc": "Bombilla Pico Loro Acero Inoxidable",
         "detalle": "Comodidad de diseño curvo junto a la resistencia del acero",
         "precio": 20000,
@@ -72,7 +72,7 @@
         "materiales": ["Acero Inoxidable"]
     },
     {
-        "id": 10,
+        "id": 9,
         "desc": "Bolso Matero",
         "detalle": "Practico, seguro y espacioso. Para llevar tu termo, mate y latas",
         "precio": 10000,
@@ -81,7 +81,7 @@
         "materiales": ["Tela"]
     },
     {
-        "id": 11,
+        "id": 10,
         "desc": "Canasta de Cuero",
         "detalle": "Elegancia y resistencia. Elaborada y cosida a mano",
         "precio": 15000,
@@ -90,7 +90,7 @@
         "materiales": ["Cuero"]
     },
     {
-        "id": 12,
+        "id": 11,
         "desc": "Canasta de Ecocuero",
         "detalle": "Liviana, facil de limpiar y libre de crueldad animal",
         "precio": 15000,
@@ -99,12 +99,39 @@
         "materiales": ["Ecocuero"]
     },
     {
-        "id": 13,
+        "id": 12,
         "desc": "Matera Térmica",
         "detalle": "Mantiene la temperatura del termo y tiene bolsillo para la yerba",
         "precio": 18000,
         "imagen": "matera-termica.jpg",
         "categoria": "matera",
         "materiales": ["Tela", "Aluminio"]
+    },
+    {
+        "id": 13,
+        "desc": "Termo Stanley Clásico 1L",
+        "detalle": "Mantiene el agua caliente por 24hs. Tapón cebador de alta precisión.",
+        "precio": 85000,
+        "imagen": "termo-stanley.jpg",
+        "categoria": "termo",
+        "materiales": ["Acero Inoxidable"]
+    },
+    {
+        "id": 14,
+        "desc": "Termo Media Manija 1L",
+        "detalle": "Práctico y resistente, con ampolla de acero para evitar roturas en viajes.",
+        "precio": 45000,
+        "imagen": "termo-media-manija.jpg",
+        "categoria": "termo",
+        "materiales": ["Acero Inoxidable", "Plástico"]
+    },
+    {
+        "id": 15,
+        "desc": "Yerbera y Azucarera de Cuero",
+        "detalle": "Set matero clásico forrado en cuero legítimo con pico vertedor de plástico.",
+        "precio": 12000,
+        "imagen": "set-latas-cuero.jpg",
+        "categoria": "accesorio",
+        "materiales": ["Cuero", "Hojalata", "Plástico"]
     }
 ]

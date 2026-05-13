@@ -1,6 +1,7 @@
 const fs = require('fs').promises
 
 const getUsuarios = async (req, res) => {
+    console.log(`Obteniendo lista de Usuarios...`);
     try {
         // Leemos directo el producto.json
         const data = await fs.readFile('./data/usuarios.json', 'utf8')
@@ -16,6 +17,7 @@ const getUsuarios = async (req, res) => {
 }
 
 const getUsuarioById = async (req, res) => {
+    console.log(`Buscando el servicio...`);
     try {
         // Volvemos a leer el productos.json
         const data = await fs.readFile('./data/usuarios.json', 'utf8')
@@ -42,6 +44,7 @@ const getUsuarioById = async (req, res) => {
 }
 
 const loginUsuario = async (req, res) => {
+    console.log("Intento de inicio de sesión");
     try {
         const data = await fs.readFile('./data/usuarios.json', 'utf8')
         const usuarios = JSON.parse(data)
@@ -66,6 +69,7 @@ const loginUsuario = async (req, res) => {
 }
 
 const registrarUsuario = async (req, res) => {
+    console.log("Registrando nuevo usuario...");
     try {
         const data = await fs.readFile('./data/usuarios.json', 'utf8')
         const usuarios = JSON.parse(data)
